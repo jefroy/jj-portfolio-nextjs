@@ -26,36 +26,35 @@ const About = () => {
                   {"I'm"} a dedicated Full Stack Developer with a passion for problem-solving and innovation.
                 </h3>
                 <p>
-                  {`I'm`} a Freelancer Front-end Developer with over 3 years of
-                  experience. {`I'm`} from San Francisco. I code and create web
-                  elements for amazing people around the world. I like work with
-                  new people. New people new Experiences.
+                  Well-qualified Full Stack Developer familiar with wide range of programming utilities and languages. <br/>
+                  Knowledgeable of backend and frontend development requirements. Handles any part of process with ease. <br/>
+                  Collaborative team player with excellent technical abilities offering 3+ years of related experience. <br/>
                 </p>
-                <div className="row">
-                  <div className="col-auto">
-                    <div className="media align-items-center">
-                      <span className="count">5k</span>
-                      <div className="media-body">
-                        Projects <br />
-                        Completed.
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-auto">
-                    <div className="media align-items-center">
-                      <span className="count">3k</span>
-                      <div className="media-body">
-                        Satisfied <br />
-                        Clients.
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                {/*<div className="row">*/}
+                {/*  <div className="col-auto">*/}
+                {/*    <div className="media align-items-center">*/}
+                {/*      <span className="count">5k</span>*/}
+                {/*      <div className="media-body">*/}
+                {/*        Projects <br />*/}
+                {/*        Completed.*/}
+                {/*      </div>*/}
+                {/*    </div>*/}
+                {/*  </div>*/}
+                {/*  <div className="col-auto">*/}
+                {/*    <div className="media align-items-center">*/}
+                {/*      <span className="count">3k</span>*/}
+                {/*      <div className="media-body">*/}
+                {/*        Satisfied <br />*/}
+                {/*        Clients.*/}
+                {/*      </div>*/}
+                {/*    </div>*/}
+                {/*  </div>*/}
+                {/*</div>*/}
                 <div className="btn-bar">
-                  <a className="px-btn px-btn-theme" href="#">
+                  <a className="px-btn px-btn-theme" href="#contactus">
                     <span>Contact Me</span>
                   </a>
-                  <a className="px-btn px-btn-theme" href="#">
+                  <a className="px-btn px-btn-theme" href="#work">
                     <span>Portfolio</span>
                   </a>
                 </div>
