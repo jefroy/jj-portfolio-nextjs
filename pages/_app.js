@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <title>Sergio - Portfolio Template</title>
+        <title>Ajay Sieunarine Portfolio</title>
         {/* <!-- Favicon --> */}
 
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />

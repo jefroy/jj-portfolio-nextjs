@@ -23,8 +23,7 @@ const About = () => {
               </div>
               <div className="about-text">
                 <h3>
-                  {`I'm`} a Freelancer Front-end Developer with over 3 years of
-                  experience.{" "}
+                  {"I'm"} a dedicated Full Stack Developer with a passion for problem-solving and innovation.
                 </h3>
                 <p>
                   {`I'm`} a Freelancer Front-end Developer with over 3 years of

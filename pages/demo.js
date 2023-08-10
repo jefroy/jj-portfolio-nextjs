@@ -65,7 +65,7 @@ const Demo = () => {
               {/* col */}
               <div className="col-sm-6 col-lg-4">
                 <div className="product">
-                  <Link href="/index-particles">
+                  <Link href="/index">
                     <a target="_blank">
                       <div className="product-img">
                         <img

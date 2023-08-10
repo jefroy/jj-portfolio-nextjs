@@ -2,13 +2,13 @@ import dynamic from "next/dynamic";
 import About from "../src/components/About";
 import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
-import ParticlesBackground from "../src/components/ParticlesBackground";
 import Services from "../src/components/Services";
+import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
 const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
   ssr: false,
 });
-const IndexParticles = () => {
+const Index = () => {
   return (
     <Layout>
       <section
@@ -17,8 +17,6 @@ const IndexParticles = () => {
         className="pp-section pp-scrollable"
       >
         <div className="home-banner">
-          {/* <div id="particles-box" className="particles" /> */}
-          <ParticlesBackground />
           <div className="container">
             <div className="row full-screen align-items-center">
               <div className="col-lg-6">
@@ -26,7 +24,7 @@ const IndexParticles = () => {
                   <h6>Hello, I am</h6>
                   <h1 className="font-alt">Sergio Gadot</h1>
                   <p className="lead">
-                    I Am Passionate <span id="type-it" />
+                    I Am Passionate <TypingAnimation />
                   </p>
                   <p className="desc">
                     I design and develop services for customers of all sizes,
@@ -67,4 +65,4 @@ const IndexParticles = () => {
     </Layout>
   );
 };
-export default IndexParticles;
+export default Index;

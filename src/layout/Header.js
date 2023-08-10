@@ -40,7 +40,7 @@ const Header = ({ blog }) => {
               <div className="img">
                 <img src="static/img/about-me.jpg" title="" alt="" />
               </div>
-              <h5>Sergiobi</h5>
+              <h5>ajay</h5>
             </div>
           </div>
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
@@ -95,12 +95,6 @@ const MenuWithOutBlog = () => {
           <span>Portfolio</span>
         </a>
       </li>
-      <li data-menuanchor="blog" className="blog">
-        <a className="nav-link" href="#blog">
-          <i className="ti-layout-media-overlay-alt-2" />
-          <span>Blogs</span>
-        </a>
-      </li>
       <li data-menuanchor="contactus">
         <a className="nav-link" href="#contactus">
           <i className="ti-map-alt" />
@@ -150,14 +144,6 @@ const MenuWithBlog = () => {
             <a className="nav-link">
               <i className="ti-bookmark-alt" />
               <span>Portfolio</span>
-            </a>
-          </Link>
-        </li>
-        <li data-menuanchor="blog" className="blog active">
-          <Link href="/#blog">
-            <a className="nav-link">
-              <i className="ti-layout-media-overlay-alt-2" />
-              <span>Blogs</span>
             </a>
           </Link>
         </li>
