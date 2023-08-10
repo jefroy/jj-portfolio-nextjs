@@ -69,11 +69,6 @@ const About = () => {
           <div className="row">
             <div className="col-lg-4 m-15px-tb">
               <ul className="aducation-box">
-                {/*<li>*/}
-                {/*  <span>2014-2016</span>*/}
-                {/*  <h6>CAPE Unit 1 & 2</h6>*/}
-                {/*  <p>Vishnu Boys Hindu College</p>*/}
-                {/*</li>*/}
                 <li>
                   <span>2016-2020</span>
                   <h6>Computer Science (Special)</h6>
@@ -82,51 +77,46 @@ const About = () => {
                 <li>
                   <span>2019 - Present</span>
                   <h6>Independent Study</h6>
-                  <p>Udemy, Coursera, Udacity, Google, Zenva...</p>
+                  <p>Full Stack, Data Science, Automation</p>
                 </li>
               </ul>
             </div>
             <div className="col-lg-7 ml-auto m-15px-tb">
               <div className="skills-box">
-                <h3>My skills</h3>
+                <h3>My Skills</h3>
                 <p>
-                  {`I'm`} a Freelancer Front-end Developer with over 3 years of
-                  experience. I code and create web elements for amazing people
-                  around the world. I like work with new people. New people new
-                  Experiences.
+                  As an accomplished Full Stack Developer, I bring a robust foundation in Computer Science to the table. With a proven track record of designing and developing dynamic web applications, I am driven by an unwavering passion for continuous learning and fostering growth within the dynamic landscape of the tech industry.
                 </p>
+                {/* /skill */}
                 <div className="skill-lt">
-                  <h6>HTML5</h6>
+                  <h6>Web Fundamentals </h6>
                   <div className="skill-bar">
-                    <div className="skill-bar-in" style={{ width: "92%" }}>
-                      <span data-toggle="tooltip" title="92%" />
+                    <div className="skill-bar-in" style={{ width: "90%" }}>
+                      <span data-toggle="tooltip" title="95%" />
                     </div>
                   </div>
                 </div>
-                {/* /skill */}
                 <div className="skill-lt">
-                  <h6>WordPress</h6>
+                  <h6>Full Stack</h6>
                   <div className="skill-bar">
-                    <div className="skill-bar-in" style={{ width: "72%" }}>
-                      <span data-toggle="tooltip" title="72%" />
+                    <div className="skill-bar-in" style={{ width: "85%" }}>
+                      <span data-toggle="tooltip" title="85%" />
                     </div>
                   </div>
                 </div>
-                {/* /skill */}
                 <div className="skill-lt">
-                  <h6>Magento</h6>
+                  <h6>Automation</h6>
                   <div className="skill-bar">
-                    <div className="skill-bar-in" style={{ width: "86%" }}>
-                      <span data-toggle="tooltip" title="86%" />
+                    <div className="skill-bar-in" style={{ width: "70%" }}>
+                      <span data-toggle="tooltip" title="75%" />
                     </div>
                   </div>
                 </div>
-                {/* /skill */}
                 <div className="skill-lt">
-                  <h6>UI/UX</h6>
+                  <h6>Data Science</h6>
                   <div className="skill-bar">
-                    <div className="skill-bar-in" style={{ width: "88%" }}>
-                      <span data-toggle="tooltip" title="88%" />
+                    <div className="skill-bar-in" style={{ width: "60%" }}>
+                      <span data-toggle="tooltip" title="60%" />
                     </div>
                   </div>
                 </div>
@@ -143,20 +133,18 @@ const About = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    <img src="static/img/a1.png" title="" alt="" />
+                    <img src="static/img/experience/hrplus.png" title="" alt="" />
                   </div>
                 </div>
                 <div className="col-sm-9 col-md-9 col-xl-10">
                   <div className="rb-right">
-                    <h6>Front-end Developer</h6>
-                    <label>WeLab | Remote | Jan 2019 - Present</label>
+                    <h6>Full Stack Developer</h6>
+                    <label>HRPLUS SOFTWARE | Hybrid | Nov 2022 – May 2023</label>
                     <div className="rb-time">Full Time</div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor.
+                      •	Worked with team members to develop/design new systems while refactoring existing systems <br/>
+                      •	Leveraged experience in Git, .NET 6, JS, CSS, Telerik UI, SQL, Problem Solving <br/>
+                      •	Adhered to SCRUM Methods to work alongside fellow developers to routinely rollout features <br/>
                     </p>
                   </div>
                 </div>
@@ -166,20 +154,20 @@ const About = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    <img src="static/img/a2.png" title="" alt="" />
+                    <img src="static/img/experience/republic-bank.jpg" title="" alt="" />
                   </div>
                 </div>
                 <div className="col-sm-9 col-md-9 col-xl-10">
                   <div className="rb-right">
-                    <h6>Front-end Developer</h6>
-                    <label>WeLab | Remote | Jan 2019 - Present</label>
+                    <h6>Technical Analyst – Intern</h6>
+                    <label>REPUBLIC BANK LIMITED | On-Site | Jan 2022 – Nov 2022</label>
                     <div className="rb-time">Full Time</div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor.
+                      •	Worked in a production support environment to ensure the implementation of scripts and media in the bank’s core applications <br/>
+                      •	Ensured test environments/databases are configured as needed by the programming department <br/>
+                      •	Performed routine system maintenance checks to ensure system health <br/>
+                      •	Developed PowerShell automation of routine tasks to increase the team’s efficiency by ~10% <br/>
+                      •	Built a Ticketing System to digitize an existing process in the form of a full-stack web app <br/>
                     </p>
                   </div>
                 </div>
@@ -189,20 +177,39 @@ const About = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    <img src="static/img/a3.png" title="" alt="" />
+                    <img src="static/img/experience/alta.jpg" title="" alt="" />
                   </div>
                 </div>
                 <div className="col-sm-9 col-md-9 col-xl-10">
                   <div className="rb-right">
-                    <h6>Front-end Developer</h6>
-                    <label>WeLab | Remote | Jan 2019 - Present</label>
+                    <h6>Full Stack Developer</h6>
+                    <label>ADULT LITERACY TUTORS ASSOCIATION | Remote | Aug 2020 – Nov 2021</label>
                     <div className="rb-time">Full Time</div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor.
+                      •	Work with team members to maintain the codebase, fix bugs, develop new features <br/>
+                      •	Leverage experience in Git, PHP, JS, CSS, ReactJS, Unit Testing, Problem Solving <br/>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="resume-row">
+              <div className="row">
+                <div className="col-sm-3 col-md-3 col-xl-2">
+                  <div className="rb-left">
+                    <img src="static/img/experience/mett.jpg" title="" alt="" />
+                  </div>
+                </div>
+                <div className="col-sm-9 col-md-9 col-xl-10">
+                  <div className="rb-right">
+                    <h6>Full Stack Developer - Intern</h6>
+                    <label>TRINIDAD AND TOBAGO METEOROLOGICAL OFFICE | Remote | Aug 2018 – May 2019</label>
+                    <div className="rb-time">Full Time</div>
+                    <p>
+                      •	Collaborated with team members to design and develop a Climate Report Management System which was used to enhance workflow for staff and administrators <br/>
+                      •	Designed, tested, and integrated an ACL (Access Control List) for users on the system <br/>
+                      •	Utilized Scrum methodology in communicating with stakeholders and developers via Slack, and applied the CI model during development of the app <br/>
+                      •	Gained experience in PHP/Laravel, Vue.js, leadership and teamwork skills <br/>
                     </p>
                   </div>
                 </div>
