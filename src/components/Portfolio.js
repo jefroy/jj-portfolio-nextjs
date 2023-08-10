@@ -76,6 +76,7 @@ const Portfolio = () => {
           </div>{" "}
           {/* Portfolio Filter */}
           <div className="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery">
+            {/*web apps*/}
             <PortfolioItem
                 category={"web-apps"}
                 title={"Yu-Gi-Oh! Helper"}
@@ -84,6 +85,67 @@ const Portfolio = () => {
                 imgSrc={"static/img/portfolio-items/d00lm8.png"}
                 projectLink={"https://d00lm8.vercel.app/"}
             />
+            <PortfolioItem
+                category={"web-apps"}
+                title={"Agency Website"}
+                desc={"JJ, the freelance developer. " +
+                    "Built using Next.js. " +
+                    "Hosting + CI on Vercel. Domain services via Hostinger."}
+                imgSrc={"static/img/portfolio-items/jjspages.png"}
+                projectLink={"https://www.jjspages.com/"}
+            />
+            <PortfolioItem
+                category={"web-apps"}
+                title={"Netflix Clone"}
+                desc={"This app is meant to mimic the looks of the popular web app: Netflix. Plays a trailer for the show you clicked."}
+                imgSrc={"static/img/portfolio-items/netflix-clone.png"}
+                projectLink={"https://github.com/jefroy/jj-movies/wiki/About-this-SPA-(Single-Page-Application)"}
+            />
+            <PortfolioItem
+                category={"web-apps"}
+                title={"Discord Clone"}
+                desc={"This app is meant to mimic the looks of the popular VoIP service: Discord. Has a text channel feature."}
+                imgSrc={"static/img/portfolio-items/Discordclone.jpg"}
+                projectLink={"https://github.com/jefroy/jj-discord/wiki/About-this-SPA-(Single-Page-Application)"}
+            />
+            <PortfolioItem
+                category={"web-apps"}
+                title={"To-Do App"}
+                desc={"A simple To-Do application built in ReactJS. Uses Firebase and Google Login."}
+                imgSrc={"static/img/portfolio-items/to-do-list-apps.png"}
+                projectLink={"https://github.com/jefroy/jj-todo-app/wiki/About-this-SPA-(Single-Page-Application)"}
+            />
+            {/*games*/}
+            <PortfolioItem
+                category={"games"}
+                title={"Boneless Platforms"}
+                desc={"A simple 3D platformer I built in Unity to learn the framework."}
+                imgSrc={"static/img/portfolio-items/3dplatform.gif"}
+                projectLink={"https://github.com/jefroy/boneless-platforms"}
+            />
+            <PortfolioItem
+                category={"games"}
+                title={"Jo's Jungle Jamboree"}
+                desc={"A simple 2D sidescroller I built in Unity for a game programming course while attending uni."}
+                imgSrc={"static/img/portfolio-items/junglefinal.gif"}
+                projectLink={"https://github.com/UWI-Bois/gameProgA4"}
+            />
+            {/*automation*/}
+            <PortfolioItem
+                category={"automation"}
+                title={"HorribleSubs Episode Sorter"}
+                desc={"Scrape the horrible subs web page to generate download links for selected anime episodes. (Not usable anymore since the website is offline)"}
+                imgSrc={"static/img/portfolio-items/horriblesubs-banner-1.jpg"}
+                projectLink={"https://github.com/jefroy/HS-Magnet-Sorter"}
+            />
+            <PortfolioItem
+                category={"automation"}
+                title={"Router Page Web Scraper"}
+                desc={"Get the table of ports forwarded on your digicel router"}
+                imgSrc={"static/img/portfolio-items/digicelscraper.png"}
+                projectLink={"https://github.com/jefroy/HS-Magnet-Sorter"}
+            />
+
           </div>
         </div>
       </section>
