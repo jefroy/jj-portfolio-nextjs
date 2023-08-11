@@ -14,7 +14,7 @@ const Header = ({ blog }) => {
         <div className="d-flex">
           <div className="navbar-brand">
             <Link href="/">
-              <a className="logo-text">Sergio</a>
+              <a className="logo-text">Ajay</a>
             </Link>
           </div>
           <button
@@ -38,7 +38,7 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/about-me.jpg" title="" alt="" />
+                <img src="static/img/me/jacket.jpg" title="" alt="" />
               </div>
               <h5>ajay</h5>
             </div>
@@ -46,21 +46,24 @@ const Header = ({ blog }) => {
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
         </div>
         <div className="nav justify-content-center social-icons">
-          <a href="#">
-            <i className="fab fa-facebook-f" />
-          </a>
-          <a href="#">
-            <i className="fab fa-twitter" />
-          </a>
-          <a href="#">
-            <i className="fab fa-instagram" />
-          </a>
-          <a href="#">
+          {/*<a href="#">*/}
+          {/*  <i className="fab fa-facebook-f" />*/}
+          {/*</a>*/}
+          {/*<a href="#">*/}
+          {/*  <i className="fab fa-twitter" />*/}
+          {/*</a>*/}
+          {/*<a href="#">*/}
+          {/*  <i className="fab fa-instagram" />*/}
+          {/*</a>*/}
+          <a href="https://www.linkedin.com/in/ajay-sieunarine-1a9b1b174/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin-in" />
           </a>
-          <a href="#">
-            <i className="fab fa-pinterest" />
+          <a href="https://github.com/jefroy" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-github" />
           </a>
+          {/*<a href="#">*/}
+          {/*  <i className="fab fa-pinterest" />*/}
+          {/*</a>*/}
         </div>
       </header>
     </Fragment>
