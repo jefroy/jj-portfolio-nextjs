@@ -65,12 +65,12 @@ const Contact = () => {
                                 {"I'm"} always available for opportunities. Feel free to reach out if you have an exciting project in mind.
                             </p>
                             <ul>
-                                <li className="media">
-                                    <i className="ti-map" />
-                                    <span className="media-body">
-            1068 Columbus Road, Lange Park, Chaguanas, Trinidad and Tobago.
-          </span>
-                                </li>
+          {/*                      <li className="media">*/}
+          {/*                          <i className="ti-map" />*/}
+          {/*                          <span className="media-body">*/}
+          {/*  1068 Columbus Road, Lange Park, Chaguanas, Trinidad and Tobago.*/}
+          {/*</span>*/}
+          {/*                      </li>*/}
                                 <li className="media">
                                     <i className="ti-email" />
                                     <span className="media-body">ajay_sieunarine@hotmail.com</span>
