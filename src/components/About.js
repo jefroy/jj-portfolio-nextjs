@@ -75,9 +75,14 @@ const About = () => {
                   <p>University of the West Indies</p>
                 </li>
                 <li>
+                  <span>2023 - 2025</span>
+                  <h6>Data Science MSc</h6>
+                  <p>University of the West Indies</p>
+                </li>
+                <li>
                   <span>2019 - Present</span>
-                  <h6>Independent Study</h6>
-                  <p>Full Stack, Data Science, Automation</p>
+                  <h6>Independent Studies</h6>
+                  <p>Certifications, Udemy, Coursera</p>
                 </li>
               </ul>
             </div>
@@ -89,36 +94,36 @@ const About = () => {
                 </p>
                 {/* /skill */}
                 <div className="skill-lt">
-                  <h6>Web Fundamentals </h6>
-                  <div className="skill-bar">
-                    <div className="skill-bar-in" style={{ width: "90%" }}>
-                      <span data-toggle="tooltip" title="95%" />
-                    </div>
-                  </div>
-                </div>
-                <div className="skill-lt">
                   <h6>Full Stack</h6>
-                  <div className="skill-bar">
-                    <div className="skill-bar-in" style={{ width: "85%" }}>
-                      <span data-toggle="tooltip" title="85%" />
-                    </div>
-                  </div>
+                  {/*<div className="skill-bar">*/}
+                  {/*  <div className="skill-bar-in" style={{ width: "85%" }}>*/}
+                  {/*    <span data-toggle="tooltip" title="85%" />*/}
+                  {/*  </div>*/}
+                  {/*</div>*/}
                 </div>
                 <div className="skill-lt">
-                  <h6>Automation</h6>
-                  <div className="skill-bar">
-                    <div className="skill-bar-in" style={{ width: "70%" }}>
-                      <span data-toggle="tooltip" title="75%" />
-                    </div>
-                  </div>
+                  <h6>Automation + Web Scraping</h6>
+                  {/*<div className="skill-bar">*/}
+                  {/*  <div className="skill-bar-in" style={{ width: "70%" }}>*/}
+                  {/*    <span data-toggle="tooltip" title="75%" />*/}
+                  {/*  </div>*/}
+                  {/*</div>*/}
                 </div>
                 <div className="skill-lt">
                   <h6>Data Science</h6>
-                  <div className="skill-bar">
-                    <div className="skill-bar-in" style={{ width: "60%" }}>
-                      <span data-toggle="tooltip" title="60%" />
-                    </div>
-                  </div>
+                  {/*<div className="skill-bar">*/}
+                  {/*  <div className="skill-bar-in" style={{ width: "60%" }}>*/}
+                  {/*    <span data-toggle="tooltip" title="60%" />*/}
+                  {/*  </div>*/}
+                  {/*</div>*/}
+                </div>
+                <div className="skill-lt">
+                  <h6>Cloud Computing</h6>
+                  {/*<div className="skill-bar">*/}
+                  {/*  <div className="skill-bar-in" style={{ width: "60%" }}>*/}
+                  {/*    <span data-toggle="tooltip" title="60%" />*/}
+                  {/*  </div>*/}
+                  {/*</div>*/}
                 </div>
                 {/* /skill */}
               </div>

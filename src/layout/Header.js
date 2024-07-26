@@ -56,10 +56,10 @@ const Header = ({ blog }) => {
           {/*  <i className="fab fa-instagram" />*/}
           {/*</a>*/}
           <a href="https://www.linkedin.com/in/ajay-sieunarine-1a9b1b174/" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-linkedin-in" />
+            <i className="fab fa-linkedin-in" style={{ fontSize: '34px', paddingRight: '36px' }} />
           </a>
           <a href="https://github.com/jefroy" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-github" />
+            <i className="fab fa-github" style={{ fontSize: '34px' }} />
           </a>
           {/*<a href="#">*/}
           {/*  <i className="fab fa-pinterest" />*/}

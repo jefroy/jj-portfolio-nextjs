@@ -94,27 +94,27 @@ const Portfolio = () => {
                 imgSrc={"static/img/portfolio-items/jjspages.png"}
                 projectLink={"https://www.jjspages.com/"}
             />
-            <PortfolioItem
-                category={"web-apps"}
-                title={"Netflix Clone"}
-                desc={"This app is meant to mimic the looks of the popular web app: Netflix. Plays a trailer for the show you clicked."}
-                imgSrc={"static/img/portfolio-items/netflix-clone.png"}
-                projectLink={"https://github.com/jefroy/jj-movies/wiki/About-this-SPA-(Single-Page-Application)"}
-            />
-            <PortfolioItem
-                category={"web-apps"}
-                title={"Discord Clone"}
-                desc={"This app is meant to mimic the looks of the popular VoIP service: Discord. Has a text channel feature."}
-                imgSrc={"static/img/portfolio-items/Discordclone.jpg"}
-                projectLink={"https://github.com/jefroy/jj-discord/wiki/About-this-SPA-(Single-Page-Application)"}
-            />
-            <PortfolioItem
-                category={"web-apps"}
-                title={"To-Do App"}
-                desc={"A simple To-Do application built in ReactJS. Uses Firebase and Google Login."}
-                imgSrc={"static/img/portfolio-items/to-do-list-apps.png"}
-                projectLink={"https://github.com/jefroy/jj-todo-app/wiki/About-this-SPA-(Single-Page-Application)"}
-            />
+            {/*<PortfolioItem*/}
+            {/*    category={"web-apps"}*/}
+            {/*    title={"Netflix Clone"}*/}
+            {/*    desc={"This app is meant to mimic the looks of the popular web app: Netflix. Plays a trailer for the show you clicked."}*/}
+            {/*    imgSrc={"static/img/portfolio-items/netflix-clone.png"}*/}
+            {/*    projectLink={"https://github.com/jefroy/jj-movies/wiki/About-this-SPA-(Single-Page-Application)"}*/}
+            {/*/>*/}
+            {/*<PortfolioItem*/}
+            {/*    category={"web-apps"}*/}
+            {/*    title={"Discord Clone"}*/}
+            {/*    desc={"This app is meant to mimic the looks of the popular VoIP service: Discord. Has a text channel feature."}*/}
+            {/*    imgSrc={"static/img/portfolio-items/Discordclone.jpg"}*/}
+            {/*    projectLink={"https://github.com/jefroy/jj-discord/wiki/About-this-SPA-(Single-Page-Application)"}*/}
+            {/*/>*/}
+            {/*<PortfolioItem*/}
+            {/*    category={"web-apps"}*/}
+            {/*    title={"To-Do App"}*/}
+            {/*    desc={"A simple To-Do application built in ReactJS. Uses Firebase and Google Login."}*/}
+            {/*    imgSrc={"static/img/portfolio-items/to-do-list-apps.png"}*/}
+            {/*    projectLink={"https://github.com/jefroy/jj-todo-app/wiki/About-this-SPA-(Single-Page-Application)"}*/}
+            {/*/>*/}
             {/*games*/}
             <PortfolioItem
                 category={"games"}
@@ -133,11 +133,18 @@ const Portfolio = () => {
             {/*automation*/}
             <PortfolioItem
                 category={"automation"}
-                title={"HorribleSubs Episode Sorter"}
-                desc={"Scrape the horrible subs web page to generate download links for selected anime episodes. (Not usable anymore since the website is offline)"}
-                imgSrc={"static/img/portfolio-items/horriblesubs-banner-1.jpg"}
-                projectLink={"https://github.com/jefroy/HS-Magnet-Sorter"}
+                title={"Grocery Dashboard"}
+                desc={"A web scraper that captures product and price information from Grocery™️'s website bi-daily, storing the data in an Azure database. Built a user-friendly Streamlit dashboard to display this data."}
+                imgSrc={"static/img/portfolio-items/grocery-dashboard.png"}
+                projectLink={"https://grocery-dashboard.streamlit.app/"}
             />
+            {/*<PortfolioItem*/}
+            {/*    category={"automation"}*/}
+            {/*    title={"HorribleSubs Episode Sorter"}*/}
+            {/*    desc={"Scrape the horrible subs web page to generate download links for selected anime episodes. (Not usable anymore since the website is offline)"}*/}
+            {/*    imgSrc={"static/img/portfolio-items/horriblesubs-banner-1.jpg"}*/}
+            {/*    projectLink={"https://github.com/jefroy/HS-Magnet-Sorter"}*/}
+            {/*/>*/}
             <PortfolioItem
                 category={"automation"}
                 title={"Router Page Web Scraper"}
