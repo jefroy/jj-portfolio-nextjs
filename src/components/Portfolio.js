@@ -87,6 +87,15 @@ const Portfolio = () => {
             />
             <PortfolioItem
                 category={"web-apps"}
+                title={"Cinematt"}
+                desc={"A web application that aggregates movie showtimes across cinemas in Trinidad. " +
+                    "Built using Next.js for the frontend, with a backend powered by Firebase and Firestore. " +
+                    "The site is deployed and hosted on Vercel."}
+                imgSrc={"static/img/portfolio-items/cinematt.webp"}  // Make sure to add the appropriate image here
+                projectLink={"https://www.cinematt.net/"}
+            />
+            <PortfolioItem
+                category={"web-apps"}
                 title={"Agency Website"}
                 desc={"JJ, the freelance developer. " +
                     "Built using Next.js. " +
