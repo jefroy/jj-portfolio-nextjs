@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import About from "../src/components/About";
 import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
@@ -46,7 +47,12 @@ const IndexParticles = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <img src="static/img/me/linkedin.jpg" title="" alt="" />
+                  <Image 
+                    src="/static/img/me/linkedin.jpg" 
+                    width={400}
+                    height={500}
+                    alt="Ajay Sieunarine" 
+                  />
                 </div>
               </div>
             </div>

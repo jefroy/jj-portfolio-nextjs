@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About = () => {
   return (
       <section
@@ -11,7 +13,12 @@ const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="static/img/me/about2.jpg" title="" alt="" />
+                    <Image 
+                      src="/static/img/me/about2.jpg" 
+                      width={400}
+                      height={500}
+                      alt="About me" 
+                    />
                   </div>
                 </div>
               </div>
@@ -138,7 +145,12 @@ const About = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    <img src="static/img/experience/hrplus.png" title="" alt="" />
+                    <Image 
+                      src="/static/img/experience/hrplus.png" 
+                      width={80}
+                      height={80}
+                      alt="HRPLUS SOFTWARE" 
+                    />
                   </div>
                 </div>
                 <div className="col-sm-9 col-md-9 col-xl-10">
@@ -159,7 +171,12 @@ const About = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    <img src="static/img/experience/republic-bank.jpg" title="" alt="" />
+                    <Image 
+                      src="/static/img/experience/republic-bank.jpg" 
+                      width={80}
+                      height={80}
+                      alt="Republic Bank Limited" 
+                    />
                   </div>
                 </div>
                 <div className="col-sm-9 col-md-9 col-xl-10">
@@ -168,10 +185,10 @@ const About = () => {
                     <label>REPUBLIC BANK LIMITED | On-Site | Jan 2022 – Nov 2022</label>
                     <div className="rb-time">Full Time</div>
                     <p>
-                      •	Worked in a production support environment to ensure the implementation of scripts and media in the bank’s core applications <br/>
+                      •	Worked in a production support environment to ensure the implementation of scripts and media in the bank&apos;s core applications <br/>
                       •	Ensured test environments/databases are configured as needed by the programming department <br/>
                       •	Performed routine system maintenance checks to ensure system health <br/>
-                      •	Developed PowerShell automation of routine tasks to increase the team’s efficiency by ~10% <br/>
+                      •	Developed PowerShell automation of routine tasks to increase the team&apos;s efficiency by ~10% <br/>
                       •	Built a Ticketing System to digitize an existing process in the form of a full-stack web app <br/>
                     </p>
                   </div>
@@ -182,7 +199,12 @@ const About = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    <img src="static/img/experience/alta.jpg" title="" alt="" />
+                    <Image 
+                      src="/static/img/experience/alta.jpg" 
+                      width={80}
+                      height={80}
+                      alt="Adult Literacy Tutors Association" 
+                    />
                   </div>
                 </div>
                 <div className="col-sm-9 col-md-9 col-xl-10">
@@ -202,7 +224,12 @@ const About = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    <img src="static/img/experience/mett.jpg" title="" alt="" />
+                    <Image 
+                      src="/static/img/experience/mett.jpg" 
+                      width={80}
+                      height={80}
+                      alt="Trinidad and Tobago Meteorological Office" 
+                    />
                   </div>
                 </div>
                 <div className="col-sm-9 col-md-9 col-xl-10">

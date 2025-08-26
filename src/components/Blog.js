@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Blog = () => {
   return (
@@ -17,7 +18,12 @@ const Blog = () => {
               <div className="blog-img">
                 <Link href="/single-blog">
                   <a>
-                    <img src="static/img/blog-1.jpg" title="" alt="" />
+                    <Image 
+                      src="/static/img/blog-1.jpg" 
+                      width={350}
+                      height={250}
+                      alt="Five Solid Evidences Attending Design Is Good For Your Career Development" 
+                    />
                   </a>
                 </Link>
               </div>
@@ -39,7 +45,12 @@ const Blog = () => {
               <div className="blog-img">
                 <Link href="/single-blog">
                   <a>
-                    <img src="static/img/blog-2.jpg" title="" alt="" />
+                    <Image 
+                      src="/static/img/blog-2.jpg" 
+                      width={350}
+                      height={250}
+                      alt="Ten Mind-Blowing Reasons Why Design Is Using This Technique For Exposure" 
+                    />
                   </a>
                 </Link>
               </div>
@@ -61,7 +72,12 @@ const Blog = () => {
               <div className="blog-img">
                 <Link href="/single-blog">
                   <a>
-                    <img src="static/img/blog-3.jpg" title="" alt="" />
+                    <Image 
+                      src="/static/img/blog-3.jpg" 
+                      width={350}
+                      height={250}
+                      alt="I Will Tell You The Truth About Design In The Next 60 Seconds" 
+                    />
                   </a>
                 </Link>
               </div>
@@ -83,7 +99,12 @@ const Blog = () => {
               <div className="blog-img">
                 <Link href="/single-blog">
                   <a>
-                    <img src="static/img/blog-4.jpg" title="" alt="" />
+                    <Image 
+                      src="/static/img/blog-4.jpg" 
+                      width={350}
+                      height={250}
+                      alt="What You Know About Design And What You Don't Know About Design" 
+                    />
                   </a>
                 </Link>
               </div>
