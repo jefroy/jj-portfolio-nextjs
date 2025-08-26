@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Fragment, useEffect, useState } from "react";
 import { activeSection } from "../utilits";
 const Header = ({ blog }) => {
@@ -7,7 +8,7 @@ const Header = ({ blog }) => {
     if (!blog) {
       activeSection();
     }
-  }, []);
+  }, [blog]); // Added 'blog' to dependency array
   return (
     <Fragment>
       <div className="mob-header">
@@ -38,7 +39,7 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/me/jacket.jpg" title="" alt="" />
+                <Image src="/static/img/me/jacket.jpg" alt="Ajay Sieunarine profile picture" width={150} height={150} />
               </div>
               <h5>ajay</h5>
             </div>
@@ -110,10 +111,20 @@ const MenuWithOutBlog = () => {
 
 const MenuWithBlog = () => {
   useEffect(() => {
-    window.addEventListener("scroll", () =>
-      document.querySelector(".blog").classList.add("active")
-    );
-  });
+    const handleScroll = () => {
+      const blogElement = document.querySelector(".blog");
+      if (blogElement) {
+        blogElement.classList.add("active");
+      }
+    };
+    
+    window.addEventListener("scroll", handleScroll);
+    
+    // Cleanup function to remove event listener
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); // Added proper dependency array and cleanup function
 
   return (
     <Fragment>

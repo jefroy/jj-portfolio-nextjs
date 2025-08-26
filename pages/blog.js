@@ -1,16 +1,17 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import Layout from "../src/layout/Layout";
 import { getPagination, pagination } from "../src/utilits";
 const Blog = () => {
-  let sort = 4;
+  const sort = 4; // Changed from let to const for better practice
   const [active, setActive] = useState(1);
   const [state, setState] = useState([]);
   useEffect(() => {
     pagination(".blog-list-item", sort, active);
     let list = document.querySelectorAll(".blog-list-item");
     setState(getPagination(list.length, sort));
-  }, [active]);
+  }, [active, sort]); // Added 'sort' to dependency array
 
   return (
     <Layout blog>
@@ -25,7 +26,7 @@ const Blog = () => {
                 <div className="blog-img">
                   <Link href="/single-blog">
                     <a>
-                      <img src="static/img/blog-1.jpg" title="" alt="" />
+                      <Image src="/static/img/blog-1.jpg" alt="Design blog post thumbnail" width={400} height={250} />
                     </a>
                   </Link>
                 </div>
@@ -47,7 +48,7 @@ const Blog = () => {
                 <div className="blog-img">
                   <Link href="/single-blog">
                     <a>
-                      <img src="static/img/blog-2.jpg" title="" alt="" />
+                      <Image src="/static/img/blog-2.jpg" alt="Design technique blog post thumbnail" width={400} height={250} />
                     </a>
                   </Link>
                 </div>
@@ -69,7 +70,7 @@ const Blog = () => {
                 <div className="blog-img">
                   <Link href="/single-blog">
                     <a>
-                      <img src="static/img/blog-3.jpg" title="" alt="" />
+                      <Image src="/static/img/blog-3.jpg" alt="Career development design blog thumbnail" width={400} height={250} />
                     </a>
                   </Link>
                 </div>
@@ -91,7 +92,7 @@ const Blog = () => {
                 <div className="blog-img">
                   <Link href="/single-blog">
                     <a>
-                      <img src="static/img/blog-6.jpg" title="" alt="" />
+                      <Image src="/static/img/blog-6.jpg" alt="Design facts blog post thumbnail" width={400} height={250} />
                     </a>
                   </Link>
                 </div>
@@ -112,7 +113,7 @@ const Blog = () => {
                 <div className="blog-img">
                   <Link href="/single-blog">
                     <a>
-                      <img src="static/img/blog-5.jpg" title="" alt="" />
+                      <Image src="/static/img/blog-5.jpg" alt="Swimming blog post thumbnail" width={400} height={250} />
                     </a>
                   </Link>
                 </div>
@@ -133,7 +134,7 @@ const Blog = () => {
                 <div className="blog-img">
                   <Link href="/single-blog">
                     <a>
-                      <img src="static/img/blog-4.jpg" title="" alt="" />
+                      <Image src="/static/img/blog-4.jpg" alt="Design knowledge blog post thumbnail" width={400} height={250} />
                     </a>
                   </Link>
                 </div>
