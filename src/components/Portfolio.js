@@ -59,109 +59,74 @@ const Portfolio = () => {
                 Web Apps
               </li>
               <li
-                  className={`c-pointer ${activeBtn("games")}`}
-                  onClick={handleFilterKeyChange("games")}
-                  data-filter=".games"
+                  className={`c-pointer ${activeBtn("data-projects")}`}
+                  onClick={handleFilterKeyChange("data-projects")}
+                  data-filter=".data-projects"
               >
-                Games
+                Data Projects
               </li>
               <li
-                  className={`c-pointer ${activeBtn("automation")}`}
-                  onClick={handleFilterKeyChange("automation")}
-                  data-filter=".automation"
+                  className={`c-pointer ${activeBtn("enterprise")}`}
+                  onClick={handleFilterKeyChange("enterprise")}
+                  data-filter=".enterprise"
               >
-                Automation
+                Enterprise
               </li>
             </ul>
           </div>{" "}
           {/* Portfolio Filter */}
           <div className="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery">
-            {/*web apps*/}
+            {/*Enterprise Projects*/}
             <PortfolioItem
-                category={"web-apps"}
-                title={"Yu-Gi-Oh! Helper"}
-                desc={"Full Stack application to assist tournament organizers and players. " +
-                    "Built using Next.js + Firebase. Hosting + CI on Vercel."}
-                imgSrc={"static/img/portfolio-items/d00lm8.png"}
-                projectLink={"https://d00lm8.vercel.app/"}
+                category={"enterprise"}
+                title={"AgriConnect"}
+                desc={"Leading development of UNCDF-funded agricultural trading platform serving Caribbean farmers. " +
+                    "Features secure payment integration and real-time market pricing."}
+                imgSrc={"static/img/portfolio-items/agriconnect.png"}
+                projectLink={"https://onefintechavenue.com/index.php/2025/03/25/agriconnect/"}
             />
             <PortfolioItem
+                category={"enterprise"}
+                title={"Shamrock HSE"}
+                desc={"Greenhouse gas emissions monitoring and carbon footprint tracking platform. " +
+                    "Features sophisticated calculation engines and complete Stripe subscription management system."}
+                imgSrc={"static/img/portfolio-items/shamrock-hse.png"}
+                projectLink={"https://shamrock-hse.vercel.app/"}
+            />
+            {/*Data Projects*/}
+            <PortfolioItem
+                category={"data-projects"}
+                title={"(WiP) Agricultural Data Analytics Research"}
+                desc={"MSc Data Science thesis project focusing on agricultural data analytics using NAMDEVCO datasets. " +
+                    "Implementing intelligent systems for data-driven agricultural insights and predictive modeling."}
+                imgSrc={"static/img/portfolio-items/data-research.jpg"}
+                projectLink={"#"}
+            />
+            {/*Web Apps*/}
+            <PortfolioItem
                 category={"web-apps"}
-                title={"Cinematt"}
-                desc={"A web application that aggregates movie showtimes across cinemas in Trinidad. " +
-                    "Built using Next.js for the frontend, with a backend powered by Firebase and Firestore. " +
-                    "The site is deployed and hosted on Vercel."}
-                imgSrc={"static/img/portfolio-items/cinematt.webp"}  // Make sure to add the appropriate image here
+                title={"CinemaTT"}
+                desc={"Movie discovery platform for Trinidad providing comprehensive entertainment database. " +
+                    "Web application aggregating movie showtimes across cinemas with modern Next.js architecture."}
+                imgSrc={"static/img/portfolio-items/cinematt.webp"}
                 projectLink={"https://www.cinematt.net/"}
             />
             <PortfolioItem
                 category={"web-apps"}
-                title={"Agency Website"}
-                desc={"JJ, the freelance developer. " +
-                    "Built using Next.js. " +
-                    "Hosting + CI on Vercel. Domain services via Hostinger."}
-                imgSrc={"static/img/portfolio-items/jjspages.png"}
-                projectLink={"https://www.jjspages.com/"}
-            />
-            {/*<PortfolioItem*/}
-            {/*    category={"web-apps"}*/}
-            {/*    title={"Netflix Clone"}*/}
-            {/*    desc={"This app is meant to mimic the looks of the popular web app: Netflix. Plays a trailer for the show you clicked."}*/}
-            {/*    imgSrc={"static/img/portfolio-items/netflix-clone.png"}*/}
-            {/*    projectLink={"https://github.com/jefroy/jj-movies/wiki/About-this-SPA-(Single-Page-Application)"}*/}
-            {/*/>*/}
-            {/*<PortfolioItem*/}
-            {/*    category={"web-apps"}*/}
-            {/*    title={"Discord Clone"}*/}
-            {/*    desc={"This app is meant to mimic the looks of the popular VoIP service: Discord. Has a text channel feature."}*/}
-            {/*    imgSrc={"static/img/portfolio-items/Discordclone.jpg"}*/}
-            {/*    projectLink={"https://github.com/jefroy/jj-discord/wiki/About-this-SPA-(Single-Page-Application)"}*/}
-            {/*/>*/}
-            {/*<PortfolioItem*/}
-            {/*    category={"web-apps"}*/}
-            {/*    title={"To-Do App"}*/}
-            {/*    desc={"A simple To-Do application built in ReactJS. Uses Firebase and Google Login."}*/}
-            {/*    imgSrc={"static/img/portfolio-items/to-do-list-apps.png"}*/}
-            {/*    projectLink={"https://github.com/jefroy/jj-todo-app/wiki/About-this-SPA-(Single-Page-Application)"}*/}
-            {/*/>*/}
-            {/*games*/}
-            <PortfolioItem
-                category={"games"}
-                title={"Boneless Platforms"}
-                desc={"A simple 3D platformer I built in Unity to learn the framework."}
-                imgSrc={"static/img/portfolio-items/3dplatform.gif"}
-                projectLink={"https://github.com/jefroy/boneless-platforms"}
+                title={"PlaylistGuru"}
+                desc={"Social music curation application featuring algorithm-driven playlist generation. " +
+                    "Built with modern web technologies to deliver personalized music discovery experiences."}
+                imgSrc={"static/img/portfolio-items/playlistguru.jpg"}
+                projectLink={"https://www.playlistguru.app/"}
             />
             <PortfolioItem
-                category={"games"}
-                title={"Jo's Jungle Jamboree"}
-                desc={"A simple 2D sidescroller I built in Unity for a game programming course while attending uni."}
-                imgSrc={"static/img/portfolio-items/junglefinal.gif"}
-                projectLink={"https://github.com/UWI-Bois/gameProgA4"}
+                category={"web-apps"}
+                title={"Yu-Gi-Oh! Helper"}
+                desc={"Full Stack tournament management application to assist organizers and players. " +
+                    "Built using Next.js with Firebase backend, featuring real-time updates and responsive design."}
+                imgSrc={"static/img/portfolio-items/d00lm8.png"}
+                projectLink={"https://d00lm8.vercel.app/"}
             />
-            {/*automation*/}
-            <PortfolioItem
-                category={"automation"}
-                title={"Grocery Dashboard"}
-                desc={"A web scraper that captures product and price information from Grocery™️'s website bi-daily, storing the data in an Azure database. Built a user-friendly Streamlit dashboard to display this data."}
-                imgSrc={"static/img/portfolio-items/grocery-dashboard.png"}
-                projectLink={"https://grocery-dashboard.streamlit.app/"}
-            />
-            {/*<PortfolioItem*/}
-            {/*    category={"automation"}*/}
-            {/*    title={"HorribleSubs Episode Sorter"}*/}
-            {/*    desc={"Scrape the horrible subs web page to generate download links for selected anime episodes. (Not usable anymore since the website is offline)"}*/}
-            {/*    imgSrc={"static/img/portfolio-items/horriblesubs-banner-1.jpg"}*/}
-            {/*    projectLink={"https://github.com/jefroy/HS-Magnet-Sorter"}*/}
-            {/*/>*/}
-            <PortfolioItem
-                category={"automation"}
-                title={"Router Page Web Scraper"}
-                desc={"Get the table of ports forwarded on your digicel router"}
-                imgSrc={"static/img/portfolio-items/digicelscraper.png"}
-                projectLink={"https://github.com/jefroy/HS-Magnet-Sorter"}
-            />
-
           </div>
         </div>
       </section>

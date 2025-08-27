@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import About from "../src/components/About";
 import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
@@ -29,7 +30,12 @@ const IndexGlitch = () => {
               <div className="col-lg-6">
                 <div className="type-box">
                   <div className="img">
-                    <img src="static/img/home-banner.png" title="" alt="" />
+                    <Image 
+                      src="/static/img/home-banner.png" 
+                      width={300}
+                      height={350}
+                      alt="Ajay Sieunarine - Full Stack Developer" 
+                    />
                   </div>
                   <h1 className="font-alt">Ajay Sieunarine</h1>
                   <p className="lead">

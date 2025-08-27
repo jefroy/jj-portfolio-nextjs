@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import About from "../src/components/About";
 import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
@@ -30,8 +31,8 @@ const IndexParticles = () => {
                     Passionate <TypingAnimation />
                   </p>
                   <p className="desc">
-                    Hard-working Computer Science graduate, from the University of the West Indies St. Augustine <br/>
-                    Aiming to leverage proven problem-solving, teamwork and planning skills to successfully fill the role at your company.
+                    Senior Software Developer and Team Lead with 4+ years building production systems. Google Cloud Platform certified architect currently leading UN-funded agricultural trading platforms. <br/>
+                    MSc Data Science final year candidate specializing in enterprise system architecture, AI/ML engineering, and intelligent data processing pipelines.
                   </p>
                   <div className="btn-bar">
                     <a
@@ -42,11 +43,25 @@ const IndexParticles = () => {
                       Download CV
                     </a>
                   </div>
+                  <div className="btn-bar">
+                    <a
+                        className="px-btn px-btn-theme"
+                        href="/ajay_resume.pdf"  // Link to the PDF file
+                        download="ajay_sieunarine_resume.pdf"  // Suggested filename for the downloaded file
+                    >
+                      Download Resume
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <img src="static/img/me/linkedin.jpg" title="" alt="" />
+                  <Image 
+                    src="/static/img/me/linkedin.jpeg" 
+                    width={400}
+                    height={500}
+                    alt="Ajay Sieunarine" 
+                  />
                 </div>
               </div>
             </div>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About = () => {
   return (
       <section
@@ -11,7 +13,12 @@ const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="static/img/me/about2.jpg" title="" alt="" />
+                    <Image 
+                      src="/static/img/me/about2.jpg" 
+                      width={400}
+                      height={500}
+                      alt="About me" 
+                    />
                   </div>
                 </div>
               </div>
@@ -23,12 +30,12 @@ const About = () => {
                 </div>
                 <div className="about-text">
                   <h3>
-                    {"I'm"} a dedicated Full Stack Developer with a passion for problem-solving and innovation.
+                    Senior Software Developer and Team Lead with expertise in enterprise systems and AI/ML applications.
                   </h3>
                   <p>
-                    Well-qualified Full Stack Developer familiar with wide range of programming utilities and languages. <br/>
-                    Knowledgeable of backend and frontend development requirements. Handles any part of process with ease. <br/>
-                    Collaborative team player with excellent technical abilities offering 3+ years of related experience. <br/>
+                    Google Cloud Platform certified architect with 4+ years building production data systems. Currently leading UN-funded agricultural trading platform development using modern technologies. <br/>
+                    MSc Data Science candidate with NVIDIA AI certifications, specializing in intelligent data processing pipelines and enterprise system architecture. <br/>
+                    Proven expertise in team management, database optimization, and scalable cloud solutions serving real-world impact. <br/>
                   </p>
                   {/*<div className="row">*/}
                   {/*  <div className="col-auto">*/}
@@ -71,59 +78,47 @@ const About = () => {
               <ul className="aducation-box">
                 <li>
                   <span>2016-2020</span>
-                  <h6>Computer Science (Special)</h6>
+                  <h6>B.Sc. Computer Science (Special) with Honors</h6>
                   <p>University of the West Indies</p>
                 </li>
                 <li>
                   <span>2023 - 2025</span>
-                  <h6>Data Science MSc</h6>
+                  <h6>M.Sc. Data Science (Final Year)</h6>
                   <p>University of the West Indies</p>
                 </li>
                 <li>
-                  <span>2019 - Present</span>
-                  <h6>Independent Studies</h6>
-                  <p>Certifications, Udemy, Coursera</p>
+                  <span>2024 - 2026</span>
+                  <h6>Google Cloud Platform Professional Architect</h6>
+                  <p>Certified Cloud Architect</p>
+                </li>
+                <li>
+                  <span>2025</span>
+                  <h6>NVIDIA Deep Learning Institute</h6>
+                  <p>Accelerated Data Science & CUDA Python</p>
                 </li>
               </ul>
             </div>
             <div className="col-lg-7 ml-auto m-15px-tb">
               <div className="skills-box">
-                <h3>My Skills</h3>
+                <h3>My Expertise</h3>
                 <p>
-                  As an accomplished Full Stack Developer, I bring a robust foundation in Computer Science to the table. With a proven track record of designing and developing dynamic web applications, I am driven by an unwavering passion for continuous learning and fostering growth within the dynamic landscape of the tech industry.
+                  As a Senior Software Developer and Team Lead, I bring enterprise-level expertise in system architecture and data engineering. Currently leading UN-funded agricultural trading platforms while completing advanced certifications in AI/ML. Passionate about building intelligent, scalable solutions that drive real-world impact.
                 </p>
                 {/* /skill */}
                 <div className="skill-lt">
-                  <h6>Full Stack</h6>
-                  {/*<div className="skill-bar">*/}
-                  {/*  <div className="skill-bar-in" style={{ width: "85%" }}>*/}
-                  {/*    <span data-toggle="tooltip" title="85%" />*/}
-                  {/*  </div>*/}
-                  {/*</div>*/}
+                  <h6>Enterprise System Architecture</h6>
                 </div>
                 <div className="skill-lt">
-                  <h6>Automation + Web Scraping</h6>
-                  {/*<div className="skill-bar">*/}
-                  {/*  <div className="skill-bar-in" style={{ width: "70%" }}>*/}
-                  {/*    <span data-toggle="tooltip" title="75%" />*/}
-                  {/*  </div>*/}
-                  {/*</div>*/}
+                  <h6>Database Design & Optimization</h6>
                 </div>
                 <div className="skill-lt">
-                  <h6>Data Science</h6>
-                  {/*<div className="skill-bar">*/}
-                  {/*  <div className="skill-bar-in" style={{ width: "60%" }}>*/}
-                  {/*    <span data-toggle="tooltip" title="60%" />*/}
-                  {/*  </div>*/}
-                  {/*</div>*/}
+                  <h6>Data Science & AI/ML Engineering</h6>
                 </div>
                 <div className="skill-lt">
-                  <h6>Cloud Computing</h6>
-                  {/*<div className="skill-bar">*/}
-                  {/*  <div className="skill-bar-in" style={{ width: "60%" }}>*/}
-                  {/*    <span data-toggle="tooltip" title="60%" />*/}
-                  {/*  </div>*/}
-                  {/*</div>*/}
+                  <h6>Cloud Infrastructure (GCP Certified)</h6>
+                </div>
+                <div className="skill-lt">
+                  <h6>Full Stack Development</h6>
                 </div>
                 {/* /skill */}
               </div>
@@ -138,7 +133,65 @@ const About = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    <img src="static/img/experience/hrplus.png" title="" alt="" />
+                    <Image 
+                      src="/static/img/experience/pgs.jpg" 
+                      width={80}
+                      height={80}
+                      alt="Public Good Studio" 
+                    />
+                  </div>
+                </div>
+                <div className="col-sm-9 col-md-9 col-xl-10">
+                  <div className="rb-right">
+                    <h6>Senior Software Developer</h6>
+                    <label>PUBLIC GOOD STUDIO | Hybrid | Sep 2024 – Present</label>
+                    <div className="rb-time">Full Time</div>
+                    <p>
+                      •	Leading web development for AgriConnect: UN-funded agricultural trading platform serving Caribbean farmers <br/>
+                      •	Managing complete technical stack independently using NextJS, TypeScript, Supabase, and Drizzle ORM <br/>
+                      •	Developing Shamrock HSE: environmental monitoring platform with complex calculation engines and Stripe integration <br/>
+                      •	Sole remaining developer following organizational restructuring, maintaining critical systems during transition <br/>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="resume-row">
+              <div className="row">
+                <div className="col-sm-3 col-md-3 col-xl-2">
+                  <div className="rb-left">
+                    <Image 
+                      src="/static/img/experience/iacl.jpg" 
+                      width={80}
+                      height={80}
+                      alt="Intelligent Applications Company" 
+                    />
+                  </div>
+                </div>
+                <div className="col-sm-9 col-md-9 col-xl-10">
+                  <div className="rb-right">
+                    <h6>Software Developer (Part-Time)</h6>
+                    <label>INTELLIGENT APPLICATIONS COMPANY | Remote | Oct 2023 – Sep 2024</label>
+                    <div className="rb-time">Part Time</div>
+                    <p>
+                      •	Conducted penetration testing and vulnerability assessments for Azure-deployed applications <br/>
+                      •	Maintained diverse client codebases including Caribbean Sailing Association and cargo manifest systems <br/>
+                      •	Performed security audits and implemented fixes for enterprise client applications <br/>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="resume-row">
+              <div className="row">
+                <div className="col-sm-3 col-md-3 col-xl-2">
+                  <div className="rb-left">
+                    <Image 
+                      src="/static/img/experience/hrplus.png" 
+                      width={80}
+                      height={80}
+                      alt="HRPLUS SOFTWARE" 
+                    />
                   </div>
                 </div>
                 <div className="col-sm-9 col-md-9 col-xl-10">
@@ -147,9 +200,9 @@ const About = () => {
                     <label>HRPLUS SOFTWARE | Hybrid | Nov 2022 – May 2023</label>
                     <div className="rb-time">Full Time</div>
                     <p>
-                      •	Worked with team members to develop/design new systems while refactoring existing systems <br/>
-                      •	Leveraged experience in Git, .NET 6, JS, CSS, Telerik UI, SQL, Problem Solving <br/>
-                      •	Adhered to SCRUM Methods to work alongside fellow developers to routinely rollout features <br/>
+                      •	Developed enterprise features using .NET 6, MySQL, and Telerik UI frameworks <br/>
+                      •	Built responsive interfaces and applied SCRUM methodology in collaborative environment <br/>
+                      •	Gained expertise in enterprise web application development and database optimization <br/>
                     </p>
                   </div>
                 </div>
@@ -159,7 +212,12 @@ const About = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    <img src="static/img/experience/republic-bank.jpg" title="" alt="" />
+                    <Image 
+                      src="/static/img/experience/republic-bank.jpg" 
+                      width={80}
+                      height={80}
+                      alt="Republic Bank Limited" 
+                    />
                   </div>
                 </div>
                 <div className="col-sm-9 col-md-9 col-xl-10">
@@ -168,53 +226,9 @@ const About = () => {
                     <label>REPUBLIC BANK LIMITED | On-Site | Jan 2022 – Nov 2022</label>
                     <div className="rb-time">Full Time</div>
                     <p>
-                      •	Worked in a production support environment to ensure the implementation of scripts and media in the bank’s core applications <br/>
-                      •	Ensured test environments/databases are configured as needed by the programming department <br/>
-                      •	Performed routine system maintenance checks to ensure system health <br/>
-                      •	Developed PowerShell automation of routine tasks to increase the team’s efficiency by ~10% <br/>
-                      •	Built a Ticketing System to digitize an existing process in the form of a full-stack web app <br/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="resume-row">
-              <div className="row">
-                <div className="col-sm-3 col-md-3 col-xl-2">
-                  <div className="rb-left">
-                    <img src="static/img/experience/alta.jpg" title="" alt="" />
-                  </div>
-                </div>
-                <div className="col-sm-9 col-md-9 col-xl-10">
-                  <div className="rb-right">
-                    <h6>Full Stack Developer</h6>
-                    <label>ADULT LITERACY TUTORS ASSOCIATION | Remote | Aug 2020 – Nov 2021</label>
-                    <div className="rb-time">Full Time</div>
-                    <p>
-                      •	Work with team members to maintain the codebase, fix bugs, develop new features <br/>
-                      •	Leverage experience in Git, PHP, JS, CSS, ReactJS, Unit Testing, Problem Solving <br/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="resume-row">
-              <div className="row">
-                <div className="col-sm-3 col-md-3 col-xl-2">
-                  <div className="rb-left">
-                    <img src="static/img/experience/mett.jpg" title="" alt="" />
-                  </div>
-                </div>
-                <div className="col-sm-9 col-md-9 col-xl-10">
-                  <div className="rb-right">
-                    <h6>Full Stack Developer - Intern</h6>
-                    <label>TRINIDAD AND TOBAGO METEOROLOGICAL OFFICE | Remote | Aug 2018 – May 2019</label>
-                    <div className="rb-time">Full Time</div>
-                    <p>
-                      •	Collaborated with team members to design and develop a Climate Report Management System which was used to enhance workflow for staff and administrators <br/>
-                      •	Designed, tested, and integrated an ACL (Access Control List) for users on the system <br/>
-                      •	Utilized Scrum methodology in communicating with stakeholders and developers via Slack, and applied the CI model during development of the app <br/>
-                      •	Gained experience in PHP/Laravel, Vue.js, leadership and teamwork skills <br/>
+                      •	Developed PowerShell automation achieving 10% efficiency improvement in production banking environment <br/>
+                      •	Built full-stack ticketing system digitizing manual processes and enhancing workflow <br/>
+                      •	Managed test environments and databases in regulated financial services environment <br/>
                     </p>
                   </div>
                 </div>

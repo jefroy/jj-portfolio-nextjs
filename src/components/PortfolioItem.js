@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const PortfolioItem = ({ category, title, desc, imgSrc, projectLink }) => {
   return (
       <div className={`grid-item product ${category}`}>
@@ -7,7 +9,12 @@ const PortfolioItem = ({ category, title, desc, imgSrc, projectLink }) => {
             <span>{desc}</span>
           </div>
           <div className="portfolio-img">
-            <img src={imgSrc} title={title} alt={title} />
+            <Image 
+              src={imgSrc} 
+              width={500}
+              height={400}
+              alt={title} 
+            />
             <div className="portfolio-icon">
               <a
                   href={projectLink}

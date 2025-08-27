@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Layout from "../src/layout/Layout";
 const SingleBlog = () => {
   return (
@@ -5,7 +6,12 @@ const SingleBlog = () => {
       <div className="single-blog">
         <div className="container">
           <div className="blog-feature-img">
-            <img src="static/img/single-blog.jpg" title="" alt="" />
+            <Image 
+              src="/static/img/single-blog.jpg" 
+              width={800}
+              height={400}
+              alt="Blog post featured image" 
+            />
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-8">
@@ -17,7 +23,12 @@ const SingleBlog = () => {
                   <h2>They Now Bade Farewell To The Kind But Unseen People</h2>
                   <div className="media">
                     <div className="avatar">
-                      <img src="static/img/team-1.jpg" title="" alt="" />
+                      <Image 
+                        src="/static/img/team-1.jpg" 
+                        width={50}
+                        height={50}
+                        alt="Sergio Roth" 
+                      />
                     </div>
                     <div className="media-body">
                       <label>Sergio Roth</label>

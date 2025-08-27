@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import { Fragment } from "react";
 
@@ -6,7 +7,7 @@ const Demo = () => {
   return (
     <Fragment>
       <Head>
-        <link rel="stylesheet" href="demo/css/style.css" />
+        <title>Demo - Sergio Portfolio</title>
       </Head>
       <main>
         <section id="home" className="section dark-bg">
@@ -38,7 +39,12 @@ const Demo = () => {
                   <Link href="/">
                     <a target="_blank">
                       <div className="product-img">
-                        <img src="demo/img/dark.jpg" title="" alt="" />
+                        <Image 
+                          src="/demo/img/dark.jpg" 
+                          width={400}
+                          height={300}
+                          alt="Home Default Demo" 
+                        />
                       </div>
                       <div className="product-info">
                         <h2>Home Default</h2>
@@ -53,7 +59,12 @@ const Demo = () => {
                   <Link href="/index-glitch">
                     <a target="_blank">
                       <div className="product-img">
-                        <img src="demo/img/dark-glitch.jpg" title="" alt="" />
+                        <Image 
+                          src="/demo/img/dark-glitch.jpg" 
+                          width={400}
+                          height={300}
+                          alt="Home Glitch Demo" 
+                        />
                       </div>
                       <div className="product-info">
                         <h2>Home Glitch</h2>
@@ -68,10 +79,11 @@ const Demo = () => {
                   <Link href="/index">
                     <a target="_blank">
                       <div className="product-img">
-                        <img
-                          src="demo/img/dark-particles.jpg"
-                          title=""
-                          alt=""
+                        <Image
+                          src="/demo/img/dark-particles.jpg"
+                          width={400}
+                          height={300}
+                          alt="Home Particles Demo"
                         />
                       </div>
                       <div className="product-info">
@@ -87,7 +99,7 @@ const Demo = () => {
                   <Link href="/index-video">
                     <a target="_blank">
                       <div className="product-img">
-                        <img src="demo/img/dark-video.jpg" title="" alt="" />
+                        <Image src="/demo/img/dark-video.jpg" width={400} height={300} alt="Home Video Demo" />
                       </div>
                       <div className="product-info">
                         <h2>Home Video</h2>
@@ -102,7 +114,12 @@ const Demo = () => {
                   <Link href="/blog">
                     <a target="_blank">
                       <div className="product-img">
-                        <img src="demo/img/dark-blog.jpg" title="" alt="" />
+                        <Image 
+                          src="/demo/img/dark-blog.jpg" 
+                          width={400}
+                          height={300}
+                          alt="Blog List Demo" 
+                        />
                       </div>
                       <div className="product-info">
                         <h2>Blog List</h2>
@@ -117,10 +134,11 @@ const Demo = () => {
                   <Link href="/single-blog">
                     <a target="_blank">
                       <div className="product-img">
-                        <img
-                          src="demo/img/dark-blog-single.jpg"
-                          title=""
-                          alt=""
+                        <Image
+                          src="/demo/img/dark-blog-single.jpg"
+                          width={400}
+                          height={300}
+                          alt="Blog Single Demo"
                         />
                       </div>
                       <div className="product-info">
