@@ -11,8 +11,8 @@ const PortfolioItem = ({ category, title, desc, imgSrc, projectLink }) => {
           <div className="portfolio-img">
             <Image 
               src={imgSrc} 
-              width={400}
-              height={300}
+              width={500}
+              height={400}
               alt={title} 
             />
             <div className="portfolio-icon">

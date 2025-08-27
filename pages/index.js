@@ -31,8 +31,8 @@ const IndexParticles = () => {
                     Passionate <TypingAnimation />
                   </p>
                   <p className="desc">
-                    Hard-working Computer Science graduate, from the University of the West Indies St. Augustine <br/>
-                    Aiming to leverage proven problem-solving, teamwork and planning skills to successfully fill the role at your company.
+                    Senior Software Developer and Team Lead with 4+ years building production systems. Google Cloud Platform certified architect currently leading UN-funded agricultural trading platforms. <br/>
+                    MSc Data Science final year candidate specializing in enterprise system architecture, AI/ML engineering, and intelligent data processing pipelines.
                   </p>
                   <div className="btn-bar">
                     <a
