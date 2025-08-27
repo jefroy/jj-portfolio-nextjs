@@ -43,12 +43,21 @@ const IndexParticles = () => {
                       Download CV
                     </a>
                   </div>
+                  <div className="btn-bar">
+                    <a
+                        className="px-btn px-btn-theme"
+                        href="/ajay_resume.pdf"  // Link to the PDF file
+                        download="ajay_sieunarine_resume.pdf"  // Suggested filename for the downloaded file
+                    >
+                      Download Resume
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
                   <Image 
-                    src="/static/img/me/linkedin.jpg" 
+                    src="/static/img/me/linkedin.jpeg" 
                     width={400}
                     height={500}
                     alt="Ajay Sieunarine" 
